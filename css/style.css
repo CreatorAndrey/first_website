@@ -111,3 +111,57 @@ body {
   bottom: -36px;
   right: -583px;
 }
+.features-item{
+  margin-left: 30px;
+
+
+  float: left;
+  width: 320px;
+}
+.features .container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.features{
+  width: 100%;
+  background-color: #efefef;
+
+  padding-top: 50px;
+}
+.features-item h1{
+  font-family: "Trebuchet MS", "Arial", sant-sefif;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 28px;
+}
+.features-item p{
+  font-family: "Tahoma", "Arial", sans-serif;
+  font-size: 18px;
+  color: #555555;
+  text-align: center;
+}
+.features-icon{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.features-icon-1{
+  background-image: url("../img/icon adv 1.png");
+  width: 55px;
+  height: 59px;
+  margin-bottom: 30px;
+}
+.features-icon-2{
+  background-image: url("../img/icon adv 2.png");
+  width: 73px;
+  height: 67px;
+  margin-bottom: 22px;
+}
+.features-icon-3{
+  background-image: url("../img/icon adv 3.png");
+  width: 69px;
+  height: 63px;
+  margin-bottom: 26px;
+}
