@@ -172,3 +172,35 @@ body {
   height: 63px;
   margin-bottom: 26px;
 }
+.education{
+  padding-top: 12px;
+  background-color: #FFFFFF;
+  padding-border: 1px;
+}
+.education .container{
+  box-sizing: border-box;
+  padding: 0 30px;
+  margin-bottom: 30px;
+}
+.education h1{
+  font-weight: bold;
+  font-size: 45px;
+  font-family: "Trebuchet MS", "Arial", sant-sefif;
+  margin-bottom: 69px;
+  padding-bottom: 29x;
+}
+.table-edu{
+  border-collapse: collapse;
+}
+.table-edu td{
+  font-family: font-family: "Trebuchet MS", "Arial", sant-sefif;
+  font-size: 18px;
+  border: 2px solid #adadad;
+  padding: 30px;
+}
+.table-edu .table-header{
+  background-color: #efefef;
+}
+.table-edu tr:first-child td:first-child{
+  width: 280px;
+}
