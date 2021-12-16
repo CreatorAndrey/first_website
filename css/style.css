@@ -5,17 +5,109 @@ body {
   color: #000000;
 
   /*  Пример подключения изображения из папки  img */
-  background-image: url("../img/bg-promo.png");
   background-repeat: no-repeat;
   background-position: center top;
-}
-.main-header{
-
-
+  margin: 0;
+  padding: 0;
 }
 .container{
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+.main-header{
+  width: 100%;
+  background-color: #6451d5;
+  padding-top: 19px;
+  padding-bottom: 1px;
 
 }
-.logo{
+.main-menu li{
+  float: left;
+  display: inline-block;
+  margin-top: 25px;
 
+}
+.main-header .container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.main-menu a{
+  display: block;
+  vertical-align: middle;
+  margin-right: 55px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Arial", sant-sefif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.main-menu li:last-child a{
+  margin-right: 0px;
+}
+.header-top .logotype{
+  float: left;
+  margin-right: 167px;
+  margin-bottom: -7px;
+}
+.header-top{
+  margin-bottom: 93px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.logotype img{
+  width: auto;
+  height: auto;
+}
+.header-top::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.promo{
+  position: relative;
+  float: left;
+  width: 450px;
+  margin-left: 30px;
+  color: #FFFFFF;
+}
+.promo .promo-title{
+  font-family: "Trebuchet MS", "Arial", sant-sefif;
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 35px;
+}
+.promo .promo-text{
+  font-size: 18px;
+  font-family: "Tahoma", "Arial", sans-serif;
+  color: #bcb3f2;
+  line-height: 30px;
+  margin-bottom: 50px;
+  width: 390px;
+}
+.button{
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #382d78;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Arial", sant-sefif;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.button-promo{
+  display: block;
+  width: 320px;
+  padding: 23px 0;
+}
+.item-image{
+  position: absolute;
+  bottom: -36px;
+  right: -583px;
 }
