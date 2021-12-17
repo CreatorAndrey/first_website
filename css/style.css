@@ -3,8 +3,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #000000;
-
-  /*  Пример подключения изображения из папки  img */
   background-repeat: no-repeat;
   background-position: center top;
   margin: 0;
@@ -173,34 +171,52 @@ body {
   margin-bottom: 26px;
 }
 .education{
-  padding-top: 12px;
+  padding-top: 13px;
   background-color: #FFFFFF;
-  padding-border: 1px;
+  padding-bottom: 1px;
 }
 .education .container{
   box-sizing: border-box;
   padding: 0 30px;
-  margin-bottom: 30px;
+  margin-bottom: 69px;
 }
 .education h1{
   font-weight: bold;
   font-size: 45px;
   font-family: "Trebuchet MS", "Arial", sant-sefif;
-  margin-bottom: 69px;
-  padding-bottom: 29x;
+  margin-bottom: 60px;
+  padding-bottom: 13px;
+  padding-top: 13px;
 }
 .table-edu{
   border-collapse: collapse;
 }
 .table-edu td{
-  font-family: font-family: "Trebuchet MS", "Arial", sant-sefif;
+  font-family: "Tahoma", "Arial", sant-sefif;
+  color: #404040;
   font-size: 18px;
-  border: 2px solid #adadad;
-  padding: 30px;
+  border: 2px solid #a7a7a7;
+  padding: 20px;
+  padding-left: 30px;
+
+}
+.table-edu .third-column{
+  line-height: 30px;
+}
+.table-edu .bold{
+  font-family: "Trebuchet MS", "Arial", sant-sefif;
+  vertical-align: top;
+  padding-top: 22px;
+  font-size: 22px;
 }
 .table-edu .table-header{
   background-color: #efefef;
 }
 .table-edu tr:first-child td:first-child{
-  width: 280px;
+  box-sizing: border-box;
+  width: 287px;
+}
+.table-edu tr:first-child td:nth-child(2){
+  box-sizing: border-box;
+  width: 192px;
 }
