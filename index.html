@@ -81,6 +81,45 @@
     </section>
 
     <section class="contacts">
+      <div class="container">
+        <h1>Обратная связь</h1>
+
+        <div class="contacts-form">
+          <form method="post" action="/echo">
+            <table>
+              <tr>
+                <td><label for="user-name-field">ФИО:</label></td>
+                <td><input type="text" name="user-name" id="user-name-field" placeholder="Представьтесь, пожалуйста"></td>
+              </tr>
+              <tr>
+                <td>Пол:</td>
+                <td>
+                  <input type="radio" name="sex" id="sex-male" value="male" checked>
+                  <label for="sex-male">Мужской</label>
+                  <input type="radio" name="sex" id="sex-female" value="female">
+                  <label for="sex-female">Женский</label>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="additional-info-field">Доп.текст:</label></td>
+                <td><textarea name="additional-info" id="additional-info-field" placeholder="Сообщите все, что считаете нужным"></textarea></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="submit" value="Отправить"></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+
+        <div class="contacts-inform">
+          <h3>Заинтересовались обучением на нашей кафедре?</h3>
+          <p>Заполните короткую форму обратной связи и отправьте нам.</p>
+          <p>Мы подготовим для вас индивидуальное предложение и выйдем на связь!</p>
+          <p><b>Внимание!</b> Все поля обязательны для заполнения.</p>
+        </div>
+
+      </div>
     </section>
 
     <footer class="main-footer">
