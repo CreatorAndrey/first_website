@@ -88,12 +88,12 @@
           <form method="post" action="/echo">
             <table>
               <tr>
-                <td><label for="user-name-field">ФИО:</label></td>
-                <td><input type="text" name="user-name" id="user-name-field" placeholder="Представьтесь, пожалуйста"></td>
+                <td class="first-column"><label for="user-name-field">ФИО:</label></td>
+                <td class="second-column"><input type="text" name="user-name" id="user-name-field" placeholder="Представьтесь, пожалуйста"></td>
               </tr>
               <tr>
-                <td>Пол:</td>
-                <td>
+                <td class="first-column">Пол:</td>
+                <td class="second-column">
                   <input type="radio" name="sex" id="sex-male" value="male" checked>
                   <label for="sex-male">Мужской</label>
                   <input type="radio" name="sex" id="sex-female" value="female">
@@ -101,12 +101,12 @@
                 </td>
               </tr>
               <tr>
-                <td><label for="additional-info-field">Доп.текст:</label></td>
-                <td><textarea name="additional-info" id="additional-info-field" placeholder="Сообщите все, что считаете нужным"></textarea></td>
+                <td class="first-column"><label for="additional-info-field">Доп.текст:</label></td>
+                <td class="second-column"><textarea name="additional-info" id="additional-info-field" placeholder="Сообщите все, что считаете нужным"></textarea></td>
               </tr>
               <tr>
                 <td></td>
-                <td><input type="submit" value="Отправить"></td>
+                <td class="second-column"><input type="submit" value="Отправить"></td>
               </tr>
             </table>
           </form>

@@ -220,3 +220,71 @@ body {
   box-sizing: border-box;
   width: 192px;
 }
+.contacts{
+  background: #efefef;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.contacts h1{
+  font-family: "Trebuchet MS", "Arial", sant-sefif;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  margin-top:0;
+  padding-bottom: 15px;
+}
+.contacts .container{
+  padding-top: 1px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 74px;
+  margin-top: 60px;
+}
+.contacts .container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.contacts-form{
+  float:left;
+  text-align: right;
+}
+.contacts-form td{
+  padding: 10px;
+}
+.contacts-inform{
+  box-sizing: border-box;
+  width: 320px;
+  float: right;
+  padding-left: 30px;
+}
+.contacts-form table .first-column{
+  font-family: "Trebuchet MS", "Arial", sant-sefif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.contacts-form table .second-column{
+  text-align: left;
+  font-family: "Tahoma", "Arial", sant-sefif;
+  font-size: 18px;
+}
+input[type="text"]{
+  width: 510px;
+  color: yellow;
+  padding: 10px 20px;
+}
+input[type="submit"]{
+  width: 100%;
+  padding: 21px 0;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Arial", sant-sefif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #382d78;
+  color: #ffffff;
+}
+textarea[id="additional-info-field"]{
+  width: 100%;
+  resize: none;
+}
