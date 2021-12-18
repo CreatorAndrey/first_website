@@ -231,15 +231,15 @@ body {
   font-weight: bold;
   margin-bottom: 60px;
   margin-top:0;
-  padding-bottom: 15px;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
 .contacts .container{
-  padding-top: 1px;
   box-sizing: border-box;
   padding-left: 30px;
   padding-right: 30px;
   margin-bottom: 74px;
-  margin-top: 60px;
+  margin-top: 49px;
 }
 .contacts .container::after{
   content: "";
@@ -251,40 +251,97 @@ body {
   text-align: right;
 }
 .contacts-form td{
-  padding: 10px;
+  /* border: 2px solid black; */
+  padding-top: 0px;
+  padding-bottom: 30px;
+  padding-left: 0;
 }
 .contacts-inform{
   box-sizing: border-box;
   width: 320px;
   float: right;
-  padding-left: 30px;
+  padding-left: 0px;
+}
+.contacts-inform h3{
+  margin-top: 0;
+  line-height: 30px;
+  font-family: "Trebuchet MS", "Arial", sant-sefif;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.contacts-inform p{
+  font-family: "Tahoma", "Arial", sant-sefif;
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 25px;
+}
+.contacts-inform b{
+  color: #000000;
+}
+p.attention{
+  margin-top: 40px;
+  margin-bottom: 0px;
 }
 .contacts-form table .first-column{
   font-family: "Trebuchet MS", "Arial", sant-sefif;
   font-size: 18px;
   font-weight: bold;
+  text-align: right;
+  padding-right: 5px;
+  vertical-align: top;
+}
+.contacts-form table tr:nth-child(3) .first-column{
+  vertical-align: top;
+  padding-top: 9px;
+}
+.contacts-form table tr:nth-child(2) .second-column{
+  padding-top: 0px;
+}
+.contacts-form table tr:nth-child(3) .second-column{
+  padding-bottom: 17px;
+}
+.contacts-form table tr:nth-child(4) .second-column{
+  padding-bottom: 0px;
 }
 .contacts-form table .second-column{
   text-align: left;
   font-family: "Tahoma", "Arial", sant-sefif;
   font-size: 18px;
+  width: 515px;
 }
 input[type="text"]{
-  width: 510px;
-  color: yellow;
-  padding: 10px 20px;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 57px;
+  font-family: "Tahoma", "Arial", sant-sefif;
+  font-size: 18px;
+  border: 2px solid #a7a7a7;
+  padding-left: 25px;
 }
 input[type="submit"]{
+  box-sizing: border-box;
   width: 100%;
-  padding: 21px 0;
+  padding: 23px 0;
   text-transform: uppercase;
   font-family: "Trebuchet MS", "Arial", sant-sefif;
   font-size: 20px;
   font-weight: bold;
   background-color: #382d78;
   color: #ffffff;
+  border: none;
 }
 textarea[id="additional-info-field"]{
+  box-sizing: border-box;
   width: 100%;
   resize: none;
+  font-family: "Tahoma", "Arial", sant-sefif;
+  font-size: 18px;
+  height: 105px;
+  border: 2px solid #a7a7a7;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.contacts-form table .first-data{
+  padding-top: 13px;
 }
