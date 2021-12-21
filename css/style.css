@@ -345,3 +345,10 @@ textarea[id="additional-info-field"]{
 .contacts-form table .first-data{
   padding-top: 13px;
 }
+input[type="radio"]{
+  margin-right: 20px;
+  margin-left: 15px;
+}
+input[id="sex-female"]{
+  margin-left: 60px;
+}
