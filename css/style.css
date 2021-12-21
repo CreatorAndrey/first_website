@@ -352,3 +352,49 @@ input[type="radio"]{
 input[id="sex-female"]{
   margin-left: 60px;
 }
+.main-footer{
+  background-color: #2a2546;
+  padding-top: 1px;
+}
+.main-footer .logo-addres p{
+  font-family: "Tahoma", "Arial", sant-sefif;
+  font-size: 18px;
+  color: #ffffff;
+}
+.main-footer .container{
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 65px;
+}
+.main-footer li{
+  list-style: none;
+  font-family: "Tahoma", "Arial", sant-sefif;
+  font-size: 18px;
+}
+.main-footer li.li-header{
+  color: #ffffff;
+  font-weight: bold;
+}
+.main-footer li a{
+  text-decoration: none;
+  color: #a39ebe;
+}
+.main-footer  .column-education, .column-students, .column-entrance,{
+  float: left;
+}
+.main-footer  .column-contacts{
+  float: right;
+}
+.main-footer .container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.main-footer .logo-addres{
+  float: left;
+  width: 250px;
+}
+.main-footer .logo-addres img{
+  margin-bottom: 80px;
+}
