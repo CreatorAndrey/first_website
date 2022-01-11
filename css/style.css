@@ -431,7 +431,14 @@ input:focus, textarea:focus{
 .main-footer li a{
   text-decoration: none;
   color: #a39ebe;
-
+}
+.main-footer li a:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+.main-footer li a:active{
+  text-decoration: none;
+  opacity: 0.2;
 }
 .main-footer  .column-education, .column-students, .column-entrance, .column-contacts{
   display: inline-block;
