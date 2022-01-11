@@ -382,6 +382,7 @@ input:focus, textarea:focus{
 .main-footer{
   background-color: #2a2546;
   padding-top: 1px;
+  padding-bottom: 1px;
 }
 .main-footer .logo-addres p{
   font-family: "Tahoma", "Arial", sant-sefif;
@@ -393,35 +394,69 @@ input:focus, textarea:focus{
   padding-left: 30px;
   padding-right: 30px;
   margin-top: 65px;
-}
-.main-footer li{
-  list-style: none;
-  font-family: "Tahoma", "Arial", sant-sefif;
-  font-size: 18px;
-}
-.main-footer li.li-header{
-  color: #ffffff;
-  font-weight: bold;
-}
-.main-footer li a{
-  text-decoration: none;
-  color: #a39ebe;
-}
-.main-footer  .column-education, .column-students, .column-entrance,{
-  float: left;
-}
-.main-footer  .column-contacts{
-  float: right;
+  margin-bottom: 80px;
 }
 .main-footer .container::after{
   content: "";
   display: table;
   clear: both;
 }
+.main-footer .left-column{
+  float: left;
+
+}
+.main-footer .right-column{
+  float: right;
+
+}
+.main-footer ul{
+  margin-left: -40px;
+}
+.main-footer li{
+  list-style: none;
+  font-family: "Tahoma", "Arial", sant-sefif;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.main-footer li.last-li{
+  margin-bottom: -14px;
+}
+.main-footer h3{
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 40px;
+
+}
+.main-footer li a{
+  text-decoration: none;
+  color: #a39ebe;
+
+}
+.main-footer  .column-education, .column-students, .column-entrance, .column-contacts{
+  display: inline-block;
+  padding-top: 0px;
+}
+.main-footer .column-contacts{
+
+  margin-left: 45px;
+}
+.main-footer .column-entrance{
+
+  margin-left: 60px;
+}
+.main-footer .column-students{
+
+  margin-left: 80px;
+}
+.main-footer .column-education{
+
+  margin-left: 0px;
+}
 .main-footer .logo-addres{
   float: left;
   width: 250px;
 }
 .main-footer .logo-addres img{
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
