@@ -16,10 +16,10 @@ body {
 }
 .main-header{
   width: 100%;
+  min-width: 1080px;
   background-color: #6451d5;
   padding-top: 19px;
   padding-bottom: 1px;
-
 }
 .main-menu li{
   float: left;
@@ -135,10 +135,10 @@ a.button-promo:active{
 }
 .features{
   width: 100%;
+  min-width: 1080px;
   background-color: #efefef;
   padding-top: 50px;
   padding-bottom: 1px;
-
 }
 .features .container{
   margin-bottom: 44px;
@@ -234,6 +234,7 @@ a.button-promo:active{
   width: 192px;
 }
 .contacts{
+  min-width: 1080px;
   background: #efefef;
   padding-top: 1px;
   padding-bottom: 1px;
@@ -380,6 +381,7 @@ input:focus, textarea:focus{
   border-color: #6451d5;
 }
 .main-footer{
+  min-width: 1080px;
   background-color: #2a2546;
   padding-top: 1px;
   padding-bottom: 1px;
