@@ -45,6 +45,13 @@ body {
 .main-menu li:last-child a{
   margin-right: 0px;
 }
+.main-menu a:hover{
+  text-decoration: underline;
+}
+.main-menu a:active{
+  opacity: 0.2;
+  text-decoration: none;
+}
 .header-top .logotype{
   float: left;
   margin-right: 167px;
@@ -103,6 +110,12 @@ body {
   display: block;
   width: 320px;
   padding: 23px 0;
+}
+a.button-promo:hover{
+  background-color: #32286c;
+}
+a.button-promo:active{
+  color: #8581a1;
 }
 .item-image{
   position: absolute;
@@ -331,6 +344,13 @@ input[type="submit"]{
   color: #ffffff;
   border: none;
 }
+input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: #32286c;
+}
+input[type="submit"]:active{
+  color: #8581a1;
+}
 textarea[id="additional-info-field"]{
   box-sizing: border-box;
   width: 100%;
@@ -351,6 +371,13 @@ input[type="radio"]{
 }
 input[id="sex-female"]{
   margin-left: 60px;
+}
+input:hover, textarea:hover{
+  border-color: #7f7f7f;
+}
+input:focus, textarea:focus{
+  outline: none;
+  border-color: #6451d5;
 }
 .main-footer{
   background-color: #2a2546;
